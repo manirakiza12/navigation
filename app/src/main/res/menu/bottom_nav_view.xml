@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        android:title="HOME" />
+
+    <item
+        android:id="@+id/adminFragment"
+        android:icon="@drawable/baseline_admin_panel_settings_24"
+        android:title="ADMINISTRATION" />
+
+    <item
+        android:id="@+id/jobFragment"
+        android:icon="@drawable/baseline_workspaces_24"
+        android:title="JOB" />
+    <item
+        android:id="@+id/gallayFragment"
+        android:icon="@drawable/baseline_browse_gallery_24"
+        android:title="GALLERY"
+   />
+
+</menu>

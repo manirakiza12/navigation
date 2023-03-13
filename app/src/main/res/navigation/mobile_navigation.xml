@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+
+        tools:layout="home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+
+        tools:layout="About us" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
+
+        tools:layout="Institution" />
+    <fragment
+        android:id="@+id/nav_project"
+        android:name="com.example.myapplication.project"
+
+        tools:layout="project" />
+    <fragment
+        android:id="@+id/nav_downloads"
+        android:name="com.example.myapplication.download"
+
+        tools:layout="download" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.myapplication.contactus"
+
+        tools:layout="contact us" />
+    <fragment
+        android:id="@+id/nav_mediacenter"
+        android:name="com.example.myapplication.mediacenter"
+
+        tools:layout="media center" />
+    <fragment
+        android:id="@+id/nav_updates"
+        android:name="com.example.myapplication.updates"
+
+        tools:layout="updates" />
+    <fragment
+        android:id="@+id/nav_covid19"
+        android:name="com.example.myapplication.covid19"
+
+        tools:layout="covid19" />
+    <fragment
+        android:id="@+id/nav_babu"
+        android:name="com.example.myapplication.babu"
+
+        tools:layout="babu" />
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.example.myapplication.adminFragment"
+
+        tools:layout="@layout/fragment_admin" />
+    <fragment
+        android:id="@+id/gallayFragment"
+        android:name="com.example.myapplication.shushoFragment"
+
+        tools:layout="@layout/shusho" />
+    <fragment
+        android:id="@+id/jobFragment"
+        android:name="com.example.myapplication.jobFragment"
+
+        tools:layout="@layout/fragment_job" />
+</navigation>

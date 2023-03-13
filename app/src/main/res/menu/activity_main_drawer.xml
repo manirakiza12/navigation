@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="what we do"/>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_work_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_house_siding_24"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_temple_hindu_24"
+            android:title="Institution" />
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/baseline_production_quantity_limits_24"
+            android:title="Project" />
+    </group>
+    <group>
+        <item android:title="More about dairy"/>
+        <item
+            android:id="@+id/nav_downloads"
+            android:icon="@drawable/baseline_arrow_downward_24"
+            android:title="downloads" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/baseline_connect_without_contact_24"
+            android:title="Contact us" />
+        <item
+        android:id="@+id/nav_updates"
+        android:icon="@drawable/baseline_tips_and_updates_24"
+        android:title="Updates" />
+        <item
+            android:id="@+id/nav_mediacenter"
+            android:icon="@drawable/baseline_media_bluetooth_on_24"
+            android:title="media center" />
+    </group>
+    <group>
+        <item android:title="Government"/>
+        <item
+            android:id="@+id/nav_covid19"
+            android:icon="@drawable/baseline_coronavirus_24"
+            android:title="Covid19" />
+        <item
+            android:id="@+id/nav_babu"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="BABU" />
+
+    </group>
+</menu>
